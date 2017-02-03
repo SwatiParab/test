@@ -1,0 +1,57 @@
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	width: 70%;
+	margin: auto;
+}
+.carousel-inner {
+	padding: 0 10%;
+}
+blockquote {
+	border-left: none;
+}
+.carousel-control {
+	.glyphicon-chevron-left {
+		left: 10%;
+	}	
+}
+.carousel-control .glyphicon-chevron-right {
+	right: 10%;
+}
+.modal {
+	border: 1px solid red;
+	padding-right: 0;
+}
+.box-wrap {
+	padding: 20px 0;
+}
+#list {
+	margin: 0;
+	padding: 0;
+	li {
+		width: 100%;
+		position: relative;
+		padding: 10px 10px 10px 0;
+    border: 1px solid #ccc;
+		span.close {
+			float: none;
+			position: absolute;
+			right: 0;
+		}
+	}
+}
+.edit, .save {
+  float: right;
+  font-size: 21px;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .2;
+  filter: alpha(opacity=20);
+  cursor: pointer;
+  &:hover, &:focus {
+	color: #000;
+  text-decoration: none;
+  opacity: .5;
+  filter: alpha(opacity=50);
+  }
+}
